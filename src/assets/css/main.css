@@ -8,6 +8,7 @@
 
 section#buttons {
     background: #efefef;
+    min-height: 100vh;
 }
 
 section#buttons .inner-container {
@@ -53,4 +54,80 @@ h1 {
 
 .btn:hover {
     cursor: pointer;
+}
+
+/* Button 001 */
+#btn-001 {
+    border: 1px solid black;
+    background: white;
+    color: black;
+}
+
+#btn-001:hover {
+    background: black;
+    color: white;
+}
+
+/* Button 002 */
+#btn-002 {
+    border: 1px solid black;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+#btn-002:hover {
+    background: black;
+    color: white;
+}
+
+/* Button 003 */
+#btn-003 {
+    border: 1px solid black;
+    background: white;
+    color: black;
+    border-radius: 25px;
+}
+
+#btn-003:hover {
+    background: black;
+    color: white;
+}
+
+/* Button 004 */
+#btn-004 {
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+
+#btn-004:hover {
+    background: white;
+    color: black;
+}
+
+/* Button 005 */
+#btn-005 {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#btn-005:hover {
+    background: white;
+    color: black;
+}
+
+/* Button 006 */
+#btn-006 {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    border-radius: 25px;
+}
+
+#btn-006:hover {
+    background: white;
+    color: black;
 }
