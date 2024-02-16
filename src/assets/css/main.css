@@ -22,7 +22,7 @@ section#buttons .inner-container {
     color: black;
     padding: 30px;
     width: 300px;
-    margin: 25px 0;
+    margin: calc(100px / 6) 0;
     height: 150px;
     text-align: center;
     display: flex;
@@ -33,7 +33,7 @@ section#buttons .inner-container {
 .buttons-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
